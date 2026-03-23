@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+
+
+
+<link rel="stylesheet" href="poke.css">    
+</head>
+
+<body>
+<!-- 
+    <h1>POKE-API</h1>
+    
+    <button onclick="getPokemons()">Obtener Pokemons Funcion</button>
+    <br>
+    <button onclick="requestPokemons()">Obtener Pokemons Await</button> -->
+    <section>
+
+        <div id="secciondatos">
+            <img src="pokedextitulo.png" width="250">
+            <br>
+
+            <input type="text" id="nombre" placeholder="Nombre del pokemon" required>
+            <button onclick="buscarPokemon()">Buscar</button>
+
+            <div id="datos"></div>
+        </div>
+
+
+    
+        <div id="seccionhistorial">
+
+            <h2 id="titulohistorial"></h2>
+            <div id="lista"></div>
+
+        </div>   
+        
+    </section>
+
+    <script src="pokeapi.js"></script>
+
+</body>
+    
+</html>
