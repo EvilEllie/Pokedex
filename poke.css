@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(fondopoke.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h2, h3 {
+    color: #2c0855;
+}
+
+section {
+    display: flex;
+    gap: 40px;
+}
+
+#secciondatos {
+    background-color: rgba(246, 215, 255, 0.88);
+    border-radius: 15px;
+    padding: 20px;
+    border: 3px solid #71229e;
+    min-width: 280px;
+}
+
+#seccionhistorial {
+    background-color: rgba(200, 255, 241, 0.88);
+    border-radius: 15px;
+    padding: 20px;
+    border: 3px solid #402abb;
+    min-width: 200px;
+    height: fit-content;
+}
+
+
+#sprite {
+    width: 100px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #9111c4;
+    font-size: 14px;
+}
+
+button {
+    background-color: #176396;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    background-color: #303181;
+    transition: background-color 0.3s ease;
+}
+
+#titulohistorial {
+    color: #1e2774;
+    font-weight: bold;
+}
